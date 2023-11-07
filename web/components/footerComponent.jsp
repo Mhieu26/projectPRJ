@@ -7,22 +7,20 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!-- Footer-->
 <footer class="py-5 bg-dark">
-    <div style="display: flex">
-        <p class="m-0 text-center text-white col-md-6">
-            ManhHieuNguyen 2023
+    <div>
+        <p class="m-0 text-center text-white ">
+            ManhHieuNguyen Project2023
             <br><!-- comment -->
-            hieunmhe171624@fpt.edu.vn
-            <br><!-- comment -->
-            Project PRJ301
-            <br><!-- comment -->
-            0565021612
-        </p>     
-        <p class="text-center text-white col-md-6">
-            <a  class="footer-icon" style="text-decoration: none" href="https://www.facebook.com/profile.php?id=100012285902227" class="fa fa-facebook"></a>
-            <a>
-                <a class="footer-icon" href="https://www.instagram.com/" class="fa fa-instagram"></a>
-            </a>
-        </p>
+           
+            
+          
+           
+           
+        <a   style="text-decoration: none"  href="https://www.facebook.com/profile.php?id=100012285902227" class="fa fa-facebook"></a>
+            
+                <a   style="text-decoration: none" href="https://www.instagram.com/" class="fa fa-instagram"></a>
+                <a    style="text-decoration: none" href="https://www.linkedin.com/in/hi%E1%BB%87u-nguy%E1%BB%85n-m%E1%BA%A1nh-380b5925b/" class="fa fa-linkedin"></a>
+        
     </div>
 </footer>
 <!-- Bootstrap core JS-->
