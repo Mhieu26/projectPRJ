@@ -16,7 +16,7 @@
             />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>detail</title>
+        <title>SNEAKERLAND-Detail</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Bootstrap icons-->

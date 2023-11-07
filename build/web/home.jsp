@@ -70,7 +70,7 @@
             <div class="container px-4 px-lg-5 mt-5">
                 <div class="row">
                     <div class="col-md-3 mb-5">
-                        <h3>List Categories</h3>
+                       
                         <ul class="list-group category_block">
                             <c:forEach items="${listCategories}" var="C">
                                 <li class="list-group-item text-white ${tag == C.cid? "active":""}"><a href="category?categoryId=${C.cid}">${C.cname}</a></li>
@@ -78,7 +78,7 @@
                         </ul>
                     </div>
                     <div class="col-md-9">
-                        <h3>List Products</h3>
+                       
                         <c:choose>
                             <c:when test="${listProducts==null || listProducts.size()==0}">
                                 Not founds
@@ -149,6 +149,7 @@
                                 </div>
                             </c:forEach>
                         </div>
+                                
                     </div>
                 </div>
             </div>
