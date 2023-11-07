@@ -1,0 +1,38 @@
+SonarQube plugins:
+  - Python Code Quality and Security 3.12.0.9583 (python)
+  - Go Code Quality and Security 1.9.0.3429 (go)
+  - JaCoCo 1.1.1.1157 (jacoco)
+  - Kotlin Code Quality and Security 2.9.0.1147 (kotlin)
+  - IaC Code Quality and Security 1.7.0.2012 (iac)
+  - JavaScript/TypeScript/CSS Code Quality and Security 9.1.0.17747 (javascript)
+  - Ruby Code Quality and Security 1.9.0.3429 (ruby)
+  - Scala Code Quality and Security 1.9.0.3429 (sonarscala)
+  - C# Code Quality and Security 8.36.1.44192 (csharp)
+  - Java Code Quality and Security 7.11.0.29148 (java)
+  - HTML Code Quality and Security 3.6.0.3106 (web)
+  - Flex Code Quality and Security 2.7.0.2865 (flex)
+  - XML Code Quality and Security 2.5.0.3376 (xml)
+  - PHP Code Quality and Security 3.23.1.8766 (php)
+  - Text file Code Quality and Security 1.0.0.120 (text)
+  - VB.NET Code Quality and Security 8.36.1.44192 (vbnet)
+  - Configuration detection fot Code Quality and Security 1.2.0.267 (config)
+Global server settings:
+  - sonar.core.id=147B411E-AYE6IrbNqqDkwudnETiR
+  - sonar.core.startTime=2022-06-07T10:03:57+0700
+  - sonar.forceAuthentication=true
+Project server settings:
+Project scanner properties:
+  - sonar.host.url=http://localhost:9000
+  - sonar.java.binaries=*/classes
+  - sonar.language=java
+  - sonar.login=******
+  - sonar.projectBaseDir=D:\Ky_4\SP_ki_4\Assgn_viet_Prj301\Assgn_Viet_Prj301\Assgn_Viet_Prj301
+  - sonar.projectKey=manh
+  - sonar.projectName=manh
+  - sonar.projectVersion=1.0
+  - sonar.scanner.app=ScannerCLI
+  - sonar.scanner.appVersion=4.7.0.2747
+  - sonar.sourceEncoding=windows-1252
+  - sonar.sources=D:/Ky_4/SP_ki_4/Assgn_viet_Prj301/Assgn_Viet_Prj301/Assgn_Viet_Prj301/src/java/model
+  - sonar.verbose=true
+  - sonar.working.directory=D:\Ky_4\SP_ki_4\Assgn_viet_Prj301\Assgn_Viet_Prj301\Assgn_Viet_Prj301\.scannerwork
