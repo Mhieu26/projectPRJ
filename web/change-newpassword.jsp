@@ -49,7 +49,7 @@
                                                 <i class="fas fa-user fa-lg me-3 fa-fw"></i>
                                                 <div class="form-outline flex-fill mb-0">
                                                     <label class="form-label" for="form3Example1c">New Password</label>
-                                                    <input type="text" id="form3Example1c" class="form-control" required name="newPassword"/>
+                                                    <input type="password" id="form3Example1c" class="form-control" required name="newPassword"/>
                                                 </div>
                                             </div>
 
@@ -57,7 +57,7 @@
                                                 <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                                                 <div class="form-outline flex-fill mb-0">
                                                     <label class="form-label" for="form3Example3c">Confirm Password</label>
-                                                    <input type="text" id="form3Example3c" class="form-control" required name="confirmPassword"/>
+                                                    <input type="password" id="form3Example3c" class="form-control" required name="confirmPassword"/>
                                                 </div>
                                             </div>
                                             <div class="d-block mx-4 mb-3 mb-lg-4  text-danger"><b>${mess}</b></div>

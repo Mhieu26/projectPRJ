@@ -11,6 +11,9 @@
         <p class="m-0 text-center text-white ">
             Manh Hieu Nguyen Project 2023
             <br><!-- comment -->
+Live completely. Walk freely!
+<br>
+
 
         
             

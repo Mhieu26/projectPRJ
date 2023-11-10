@@ -34,9 +34,7 @@
                 <div class="text-center text-w
                      hite">
                     <h1 class="display-4 fw-bolder" style="color: white">SNEAKERLAND</h1>
-                    <p class="lead fw-normal text-white-50 mb-0">
-                       Live completely. Walk freely!
-                    </p>
+                    
                 </div>
             </div>
         </header>
