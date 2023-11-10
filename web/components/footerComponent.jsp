@@ -9,26 +9,26 @@
 <footer class="py-5 bg-dark">
     <div>
         <p class="m-0 text-center text-white ">
+            Live completely. Walk freely!
+            <br>
             Manh Hieu Nguyen Project 2023
             <br><!-- comment -->
-Live completely. Walk freely!
-<br>
+           
 
 
-        
-            
+
             <a   style="text-decoration: none"  href="https://www.facebook.com/profile.php?id=100012285902227" class="fa fa-facebook"></a>
 
             <a style="text-decoration: none" href="https://www.instagram.com/" class="fa fa-instagram"></a>
             <a    style="text-decoration: none" href="https://www.linkedin.com/in/hi%E1%BB%87u-nguy%E1%BB%85n-m%E1%BA%A1nh-380b5925b/" class="fa fa-linkedin"></a>
 
-       
-        
-       
-            
-        
 
-           
+
+
+
+
+
+
     </div>
 </footer>
 <!-- Bootstrap core JS-->
