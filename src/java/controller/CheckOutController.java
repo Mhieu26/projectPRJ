@@ -96,7 +96,9 @@ public class CheckOutController extends HttpServlet {
         String phone = request.getParameter("phone");
         String address = request.getParameter("address");
         String note = request.getParameter("note");
-
+        
+      
+ 
         //lưu vào database
         //Lưu Shipping
         Shipping shipping = new Shipping( name, phone, address);
@@ -131,6 +133,8 @@ public class CheckOutController extends HttpServlet {
         request.setAttribute("cartss", carts);
         request.setAttribute("totalPrice", totalPrice);
         request.getRequestDispatcher("thank").forward(request, response);
+       
+    
     }
 
     /**
@@ -142,5 +146,6 @@ public class CheckOutController extends HttpServlet {
     public String getServletInfo() {
         return "Short description";
     }// </editor-fold>
+   
 
 }

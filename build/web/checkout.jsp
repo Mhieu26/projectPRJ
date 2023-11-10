@@ -35,6 +35,8 @@
 
             <div class="container" style="min-height: 1000px">
                 <h1>Checkout</h1>
+
+
                 <div class="row">
                     <div class="col-md-8" style="border: 1px solid #ccc; border-radius: 5px; padding: 1rem">
                         <h3>List Products</h3>
@@ -69,12 +71,12 @@
                         <h3>Information of customer</h3>
                         <form action="checkout" method="POST">
                             <div class="mb-3">
-                                <label for="name" class="form-label">Name</label>
-                                <input type="text" class="form-control" id="name" name="name" aria-describedby="emailHelp">
+                                <label for="name" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="name" name="name" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" title="Vui lòng nhập một địa chỉ email hợp lệ" required>
                             </div>
                             <div class="mb-3">
                                 <label for="phone" class="form-label">Phone</label>
-                                <input type="text" class="form-control" id="phone" name="phone" aria-describedby="emailHelp">
+                                <input type="text" class="form-control" id="phone" name="phone" pattern="\d{10}" title="Vui lòng nhập 10 số điện thoại" required>
                             </div>
                             <div class="mb-3">
                                 <label for="address" class="form-label">Address</label>
@@ -85,6 +87,7 @@
                                 <textarea class="form-control" id="note" name="note" rows="3"></textarea>
                             </div>
                             <button type="submit" class="btn btn-primary w-100">Submit</button>
+
                         </form>
                     </div>
                 </div>
@@ -92,5 +95,32 @@
         </section>
         <%@include file="components/footerComponent.jsp" %>
     </body>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var form = document.querySelector('form');
+            var emailInput = document.getElementById('name');
+
+            form.addEventListener('submit', function (event) {
+                if (!emailInput.checkValidity()) {
+                    event.preventDefault();
+                    alert('Vui lòng nhập một địa chỉ email hợp lệ.');
+                }
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var form = document.querySelector('form');
+            var phoneInput = document.getElementById('phone');
+
+            form.addEventListener('submit', function (event) {
+                if (!phoneInput.checkValidity()) {
+                    event.preventDefault();
+                    alert('Vui lòng nhập 10 số điện thoại.');
+                }
+            });
+        });
+    </script>
+
 </html>
 
